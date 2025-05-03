@@ -1,7 +1,7 @@
 const questions = [
     {
       question: "1 - Qual jogador da FURIA você mais curte?",
-      options: ["KSCERATO", "Yuurih", "Fallen", "Chelo"],
+      options: ["KSCERATO", "Yuurih", "Fallen", "Chelo", "SKULLZ" ],
     },
     {
       question: "2 - Você joga CS?",

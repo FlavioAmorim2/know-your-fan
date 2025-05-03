@@ -1,12 +1,65 @@
-# React + Vite
+🎯 Know Your Fan
+Aplicação desenvolvida para o desafio Know Your Fan da FURIA, com o objetivo de coletar informações do fã, realizar um quiz e entregar um resultado personalizado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Deploy
+Acesse a aplicação: https://know-your-fan.vercel.app
 
-Currently, two official plugins are available:
+📌 Funcionalidades
+Cadastro do fã (nome, idade, email, CPF, Instagram, cidade, histórico com a FURIA).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Upload de documento com OCR (reconhecimento de texto).
 
-## Expanding the ESLint configuration
+Quiz interativo para medir o conhecimento do fã.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Resultado final com base nas respostas.
+
+Dados salvos localmente no navegador (localStorage).
+
+🛠️ Tecnologias Utilizadas
+Vite + React
+
+JavaScript (ES6+)
+
+React Router DOM
+
+ CSS
+
+Tesseract.js (OCR)
+
+Vercel (Deploy)
+
+📂 Estrutura de Pastas
+css
+Copiar
+Editar
+src/
+├── assets/
+├── data/
+│   ├── questions.js
+├── pages/
+│   ├── RegisterPage.jsx
+│   ├── UploadPage.jsx
+│   ├── QuizPage.jsx
+│   └── ResultPage.jsx
+├── utils/
+├── App.jsx
+├── index.css
+└── main.jsx
+🧠 Como rodar localmente
+bash
+Copiar
+Editar
+# Clone o repositório
+git clone https://github.com/FlavioAmorim2/know-your-fan.git
+
+# Acesse a pasta
+cd know-your-fan
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+📄 Licença
+Projeto desenvolvido para fins de estudo e participação no desafio da FURIA. Todos os direitos das imagens e marcas pertencem aos seus respectivos donos.
+
